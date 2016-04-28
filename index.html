@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>福井道の駅一覧 (at 8am.)</title>
+<meta name="description" content="福井県内の道の駅を地図上に表示します。「福井県オープンデータライブラリ」で公開されているオープンデータを使用しています。">
+<meta name="keywords" content="福井,HTML5,jQuery,CSS3,W3C">
+<meta name="author" content="8am.jp">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no"> 
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta http-equiv="content-language" content="ja">
+<link rel="icon" type="image/png" href="./icon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./icon.png">
+<!-- Bootstrap CDN -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+<!-- Google Fonts -->
+<link rel='stylesheet' href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" type="text/css">
+<link rel="stylesheet" href="http://8am.jp/apps/lib/8am.apps.css">
+<link rel="stylesheet" href="./roadside-station-fukui.css">
+</head>
+<body>
+<div id="header">
+  <em id="title">福井道の駅一覧</em>
+  <a href="../../play/roadside-station-fukui/" target="_parent" id="credit">このアプリについて</a>
+</div>
+<div id="dashboard">
+  <div id="map"></div>
+  <div id="list"></div>
+</div>
+<!-- jQuery CDN -->
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<!-- Bootstrap CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<!-- Google Maps Geocoding API -->
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAFiiYUnvGUazgrLZLJEMcTy_MSff9ZV78&sensor=true"></script>
+<script src="./roadside-station-fukui.js"></script>
+</body>
+</html>
